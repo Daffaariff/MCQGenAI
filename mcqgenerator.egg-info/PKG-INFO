@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mcqgenerator
+Version: 0.0.1
+Author: Daffa Arifadilah
+Author-email: dafa.130.df@gmail.com
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: pyPDF
+Requires-Dist: python-dotenv
