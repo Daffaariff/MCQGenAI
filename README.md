@@ -43,7 +43,7 @@ To use the MCQs Generator, follow these steps:
 
 - langchain
 - openai
-- streamlits
+- streamlit
 
 ## 📄 License
 
