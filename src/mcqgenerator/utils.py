@@ -5,7 +5,7 @@ import traceback
 
 
 def read_file(file): 
-    if file.name.endwith('.pdf'):
+    if file.name.endswith('.pdf'):
         try: 
             pdf_reader=PyPDF2.PdfFileReader(file)
             text=""
@@ -15,7 +15,7 @@ def read_file(file):
         except Exception as e: 
             raise Exception("error reading the PDF file")
         
-    elif file.name.endwith('.txt'):
+    elif file.name.endswith('.txt'):
         return file.read().decode('utf-8')
     
     else:
