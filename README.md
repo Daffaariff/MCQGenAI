@@ -16,8 +16,8 @@ To use the MCQs Generator, follow these steps:
 
    ```bash
    conda create --name <your_env_name> python=3.8
-   pip install -r requirements.txt
    source activate <your_env_name>
+   pip install -r requirements.txt
    ```
 
 3. **Set Up OpenAI API Key**: Obtain an API key from OpenAI and set it as an environment variable at .env file within `OPENAI_API_KEY`.
