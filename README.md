@@ -15,7 +15,7 @@ To use the MCQs Generator, follow these steps:
 **Install Dependencies**: Make sure you have Python installed. Install the required dependencies using pip:
 
    ```bash
-   conda create --name <your_env_name> python=3.8
+   conda create -p <your_env_name> python=3.8 -y
    pip install -r requirements.txt
    source activate <your_env_name>
    ```
@@ -43,7 +43,7 @@ To use the MCQs Generator, follow these steps:
 
 - langchain
 - openai
-- streamlits
+- streamlit
 
 ## 📄 License
 
