@@ -15,9 +15,9 @@ To use the MCQs Generator, follow these steps:
 **Install Dependencies**: Make sure you have Python installed. Install the required dependencies using pip:
 
    ```bash
-   conda create -p <your_env_name> python=3.8 -y
-   pip install -r requirements.txt
+   conda create --name <your_env_name> python=3.8
    source activate <your_env_name>
+   pip install -r requirements.txt
    ```
 
 3. **Set Up OpenAI API Key**: Obtain an API key from OpenAI and set it as an environment variable at .env file within `OPENAI_API_KEY`.
